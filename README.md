@@ -1,0 +1,2 @@
+# AntLineTools
+AntLineTools是一个工具类别，只要在UIView或者其子类中引入这个类别并执行相应的方法便可以对UIView或者其子类进行切割，并将切割部分保存为图片
