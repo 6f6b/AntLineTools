@@ -7,12 +7,14 @@
 
   3.  配置生成的UIView实例，即：
 
-      #### UIImageView *imageV = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"zxy.JPEG"]];
+  ```objective-c
+  UIImageView *imageV = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"zxy.JPEG"]];
 
-      #### GetImageBlock getImageBlock = ^(UIImage *image){
+  GetImageBlock getImageBlock = ^(UIImage *image){
 
-      #### UIImageView *imagev = [[UIImageView alloc] initWithImage:image];[self.view addSubview:imagev];
+  UIImageView *imagev = [[UIImageView alloc] initWithImage:image];[self.view addSubview:imagev];
 
-      #### };
+  };
 
-      ####  [imageV configAntLineToolsWith:getImageBlock];
+  [imageV configAntLineToolsWith:getImageBlock];
+  ```
